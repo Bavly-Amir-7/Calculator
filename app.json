@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "calcApp",
+    "slug": "calcApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/calculator-icon.png",
+    "scheme": "calcApp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/calculator-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/calculator-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/calculator-splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3b8efc53-3ce2-4ed8-b5b2-038881649065"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a219414a-357a-4c48-8366-e844bdbed1d0"
+    }
+  }
+}
