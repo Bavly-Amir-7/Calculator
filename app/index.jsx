@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View, Switch } from "react-native";
 import { ThemeContext } from "../context/ThemeContext";
 import { myColors } from "../components/styles/colors"; // Importing myColors
-import Button from "../components/button"; // Importing Button component
+import Button from "../components/Button"; // Importing Button component
 import MyKeyboard from "@/components/MyKeyboard";
 import { SafeAreaView } from "react-native-safe-area-context";
 

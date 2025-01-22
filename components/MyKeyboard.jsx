@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View } from "react-native";
-import Button from "../components/button"; // Fixed import casing
+import Button from "../components/Button"; // Fixed import casing
 import { myColors } from "../components/styles/colors"; // Fixed import casing
 import { ThemeContext } from "../context/ThemeContext";
 import { Styles } from "./styles/GlobalStyles";

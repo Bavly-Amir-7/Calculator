@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/calculator-icon.png",
-    "scheme": "calcApp",
+    "scheme": "calcapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -45,7 +45,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/a219414a-357a-4c48-8366-e844bdbed1d0"
+      "url": "https://u.expo.dev/3b8efc53-3ce2-4ed8-b5b2-038881649065"
     }
   }
 }
